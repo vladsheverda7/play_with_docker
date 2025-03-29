@@ -1,0 +1,23 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "SDET Mastery Docker",
+  "author": "Vladislav Sheverda",
+  "keywords": [
+    "docker",
+    "jest"
+  ],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladsheverda7/play_with_docker"
+  },
+  "scripts": {
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.7"
+  }
+}

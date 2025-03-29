@@ -1,0 +1,11 @@
+version: '1'
+
+services:
+  assert:
+    image: assertion_1
+    volumes:
+      - test_1:/usr/src/app/data
+
+
+volumes:
+  test_1:
